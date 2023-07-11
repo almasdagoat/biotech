@@ -1,58 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+/* style.css */
 
+/* Update the background color of the header */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #F2F2F2;
 }
 
+/* Update the text color of the header */
+header h1 {
+  color: #333333;
+}
+
+/* Update the background color of the navigation bar */
 nav {
-    background-color: #f2f2f2;
-    padding: 10px;
+  background-color: #333333;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
+/* Update the link color in the navigation bar */
 nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
+  color: #FFFFFF;
 }
 
-nav ul li a:hover {
-    background-color: #333;
-    color: #fff;
+/* Update the background color of the home section */
+#home {
+  background-color: #FFFFFF;
 }
 
-section {
-    padding: 20px;
+/* Update the text color of the home section */
+#home h2, #home p {
+  color: #333333;
 }
 
-section h2 {
-    color: #333;
+/* Update the background color and text color of the introduction section */
+#introduction {
+  background-color: #F2F2F2;
+  color: #333333;
 }
 
-section p {
-    color: #666;
+/* Update the background color and text color of the article sections */
+#article2, #article3 {
+  background-color: #FFFFFF;
+  color: #333333;
 }
 
+/* Update the footer background color and text color */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+  background-color: #333333;
+  color: #FFFFFF;
 }
